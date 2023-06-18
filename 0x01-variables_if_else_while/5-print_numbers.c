@@ -1,9 +1,6 @@
 #include <stdlib.h>
-
 #include <time.h>
-
 #include <stdio.h>
-
 
 /**
  * main - prints all single digit numbers of base 10 starting from 0,
@@ -13,12 +10,13 @@
  */
 int main(void)
 {
-	int dig;
+	int num;
 
-	for (dig = 0; dig < 10; dig++)
+	for (num = 0; num < 10; num++)
 	{
-		printf("%d", dig);
-		printf("\n");
+		printf("%d", num);
 	}
+	printf("\n");
+
 	return (0);
 }
