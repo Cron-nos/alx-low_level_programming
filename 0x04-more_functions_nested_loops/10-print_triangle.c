@@ -11,6 +11,7 @@ void print_triangle(int size)
 {
 	while (size > 0)
 	{
+		_putchar(' ');
 		_putchar('#');
 		size--;
 	}
